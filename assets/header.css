@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.0);
+    z-index: 3;
+    font-family:  "Luckiest Guy", cursive;
+    
+
+}
+
+
+
+
+
+
+
+
+
+.header a{
+    color: aqua;
+    text-decoration: none;
+    
+}
+.header li{
+    list-style: none;
+    
+}
+
+.navigation{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.0);
+    
+    
+    height: 50px;
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuNavigation{
+    display: flex;
+    gap: 10px;
+}
